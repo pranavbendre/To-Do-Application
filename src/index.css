@@ -1,13 +1,121 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: blue;
+}
+
+nav ul {
+  font-size: 24px;
+  padding: 57px 0px;
+}
+
+nav ul li {
+  padding: 8px 16px;
+}
+
+.inner-link {
+  font-size: 16px;
+  position: relative;
+  right: 6px;
+}
+
+.h-1 {
+  top: 40px;
+  position: absolute;
+  left: 32%;
+  color: #6b6bcf;
+}
+
+.img1 {
+  width: 24%;
+  border-radius: 35px;
+  margin-top: 20px;
+}
+
+.create-profile-cntr {
+  border: 2px solid #6b6bcf;
+  border-radius: 16px;
+  padding: 35px 80px;
+  position: relative;
+  left: 16px;
+  margin: 54px 87px 33px 150px;
+}
+
+.sub-btn {
+  padding: 8px 86px;
+}
+
+.profile-heading {
+  position: relative;
+  top: 20px;
+  color: #6b6bcf;
+}
+
+.goto-form-btn {
+  position: relative;
+  top: 72px;
+  left: 49px;
+}
+
+.profile-img {
+  width: 132px;
+  height: 133px;
+  border-radius: 100%;
+  margin: 13px 78px -1px;
+}
+
+.alert-successs {
+  position: fixed;
+  margin-top: 16px;
+  left: 735px;
+  z-index: 1;
+  max-width: 13vw;
+}
+
+.alert-shown {
+  opacity: 1;
+  transition: all 250ms linear;
+}
+
+.alert-hidden {
+  opacity: 0;
+  transition: all 250ms linear;
+}
+
+.search-main {
+  max-width: 26%;
+  position: absolute;
+  left: 880px;
+  top: 16px;
+}
+
+.search-control::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.search-control:focus {
+  box-shadow: none;
+}
+
+.dash-heading {
+  position: relative;
+  top: 20px;
+  color: #6b6bcf;
+}
+
+.dash-e1 {
+  position: relative;
+  top: 195px;
+  font-size: 28px;
+  max-width: 100%;
+  color: grey;
 }
