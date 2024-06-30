@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Steps to run the Project:
+1.Open the code editor like Visual Studio Code.
+2.Open src/App.js file.
+3.Open terminal and type 'npm run start' or 'npm start'.
+4.[http://localhost:3000](http://localhost:3000) will open in your browser.
+5.Now you can view the functionality of the application!
 
 ## Available Scripts
 
